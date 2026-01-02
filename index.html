@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horologia de Luxo | EBAC</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">LUXURY WATCHES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#colecao">Coleção</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <header id="home" class="mt-5 pt-3">
+        <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/luxury_watch_1.png" class="d-block w-100" alt="Relógio de Luxo 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Elegância Atemporal</h1>
+                        <p>Descubra a perfeição em cada detalhe com nossa coleção clássica.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/luxury_watch_2.png" class="d-block w-100" alt="Relógio de Luxo 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Tecnologia do Futuro</h1>
+                        <p>Onde a inovação encontra o luxo absoluto.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/luxury_watch_3.png" class="d-block w-100" alt="Relógio de Luxo 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Legado e Tradição</h1>
+                        <p>Peças que transcendem gerações.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Grid Section -->
+    <main class="container my-5" id="colecao">
+        <h2 class="text-center mb-5">Nossa Coleção Exclusiva</h2>
+        <div class="row g-4">
+            <!-- Item 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="assets/watch_card_1.png" class="card-img-top" alt="Smartwatch">
+                    <div class="card-body">
+                        <h5 class="card-title">Digital Pro Max</h5>
+                        <p class="card-text">O smartwatch definitivo para monitoramento de saúde e performance.</p>
+                        <a href="#" class="btn btn-primary w-100">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="assets/watch_card_2.png" class="card-img-top" alt="Lady Watch">
+                    <div class="card-body">
+                        <h5 class="card-title">Diamond Rose</h5>
+                        <p class="card-text">Elegância e sofisticação em ouro rosa com detalhes em diamante.</p>
+                        <a href="#" class="btn btn-primary w-100">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="assets/watch_card_3.png" class="card-img-top" alt="Sports Watch">
+                    <div class="card-body">
+                        <h5 class="card-title">Adventure Explorer</h5>
+                        <p class="card-text">Resistência extrema para quem busca desafios em qualquer terreno.</p>
+                        <a href="#" class="btn btn-primary w-100">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 4 (To show grid behavior) -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="assets/luxury_watch_1.png" class="card-img-top" alt="Ocean Master">
+                    <div class="card-body">
+                        <h5 class="card-title">Ocean Master</h5>
+                        <p class="card-text">Mergulhe com precisão e estilo. Resistente a 300 metros.</p>
+                        <a href="#" class="btn btn-primary w-100">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="assets/luxury_watch_2.png" class="card-img-top" alt="Night Rider">
+                    <div class="card-body">
+                        <h5 class="card-title">Night Rider</h5>
+                        <p class="card-text">Design black piano com ponteiros luminescentes.</p>
+                        <a href="#" class="btn btn-primary w-100">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="assets/luxury_watch_3.png" class="card-img-top" alt="Vintage Gold">
+                    <div class="card-body">
+                        <h5 class="card-title">Vintage Gold</h5>
+                        <p class="card-text">O clássico que nunca sai de moda. Ouro 18k e couro legítimo.</p>
+                        <a href="#" class="btn btn-primary w-100">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2026 Luxury Watches Store. Todos os direitos reservados.</p>
+            <p>Desenvolvido como exercício para o curso EBAC.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
